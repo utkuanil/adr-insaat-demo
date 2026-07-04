@@ -1,0 +1,242 @@
+<!doctype html>
+<html class="no-js" lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Enerji Kimlik Belgesi | ADR İnşaat Proje</title>
+    <meta name="description" content="Enerji Kimlik Belgesi (EKB) hizmeti, yeni binalar ve mevcut binalar için mevzuata uygun enerji performansı belgelendirme süreçleri.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <style>
+
+        .mainmenu__wrap {min-height:86px;height:86px;overflow:visible;}
+        .mainmenu__wrap .container,.mainmenu__wrap .row{height:86px;}
+        .mainmenu__wrap .row{display:flex;align-items:center;}
+        .adr-logo{height:86px;display:flex;align-items:center;overflow:visible;padding:0;margin:0;}
+        .adr-logo a{display:flex;align-items:center;gap:12px;height:86px;padding:0;margin:0;text-decoration:none;}
+        .adr-logo img{width:58px;height:58px;max-width:58px;max-height:58px;object-fit:contain;display:block;margin:0;}
+        .adr-logo-text{display:flex;flex-direction:column;line-height:1.1;}
+        .adr-logo-title{font-size:20px;font-weight:800;color:#111;letter-spacing:.2px;white-space:nowrap;}
+        .adr-logo-subtitle{font-size:10px;font-weight:600;color:#333;letter-spacing:.4px;white-space:nowrap;margin-top:4px;}
+        .main__menu__nav{min-height:86px;height:86px;display:flex;align-items:center;}
+        .main__menu > li > a{line-height:86px;}
+        .main__menu li a{font-weight:700;}
+        .sticky__header.scroll-header{min-height:66px;height:66px;}
+        .sticky__header.scroll-header .container,
+        .sticky__header.scroll-header .row,
+        .sticky__header.scroll-header .adr-logo,
+        .sticky__header.scroll-header .adr-logo a,
+        .sticky__header.scroll-header .main__menu__nav{height:66px;min-height:66px;}
+        .sticky__header.scroll-header .main__menu > li > a{line-height:66px;}
+        .sticky__header.scroll-header .adr-logo img{width:46px;height:46px;max-width:46px;max-height:46px;}
+        .sticky__header.scroll-header .adr-logo-title{font-size:17px;}
+        .sticky__header.scroll-header .adr-logo-subtitle{font-size:8px;}
+        .detail-hero{padding:100px 0;background:#f7f7f7;}
+        .detail-card{background:#fff;padding:45px;box-shadow:0 4px 24px rgba(0,0,0,.08);}
+        .detail-card h1{font-size:40px;font-weight:800;margin-bottom:20px;color:#111;}
+        .detail-lead{font-size:18px;line-height:1.8;color:#444;margin-bottom:28px;}
+        .detail-card p{font-size:16px;line-height:1.9;color:#555;}
+        .detail-card ul{padding-left:22px;margin-top:10px;margin-bottom:20px;}
+        .detail-card li{font-size:16px;line-height:1.9;color:#555;}
+        .detail-subtitle{font-size:24px;font-weight:800;color:#111;margin-top:34px;margin-bottom:14px;}
+        .detail-gallery{padding:90px 0;background:#fff;}
+        .adr-slider{position:relative; background:#fff; box-shadow:0 4px 24px rgba(0,0,0,.12); overflow:hidden;}
+        .adr-slider-track{position:relative;}
+        .adr-slide{display:none;}
+        .adr-slide.active{display:block;}
+        .adr-slide img{width:100%; height:auto; max-height:720px; object-fit:contain; display:block; background:#f8f8f8; margin:0 auto;}
+        .adr-slider-btn{position:absolute; top:50%; transform:translateY(-50%); z-index:5; width:46px; height:46px; border:none; border-radius:50%; background:rgba(0,0,0,.55); color:#fff; font-size:24px; line-height:46px; text-align:center;}
+        .adr-slider-btn:hover{background:#ffc226; color:#111;}
+        .adr-prev{left:18px;}
+        .adr-next{right:18px;}
+        .adr-slider-thumbs{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:22px;}
+        .adr-thumb{border:3px solid transparent; padding:0; background:none; width:105px; height:72px; overflow:hidden; cursor:pointer;}
+        .adr-thumb.active{border-color:#ffc226;}
+        .adr-thumb img{width:100%; height:100%; object-fit:cover; display:block;}
+        .adr-whatsapp{display:inline-block;background:#25D366;color:#fff !important;padding:12px 24px;border-radius:3px;font-weight:700;text-transform:none;}
+        .adr-whatsapp:hover{background:#1ebe5d;color:#fff !important;}
+        .adr-fixed-wa{position:fixed;right:18px;bottom:18px;z-index:9999;background:#25D366;color:#fff !important;padding:12px 18px;border-radius:50px;font-weight:700;box-shadow:0 4px 18px rgba(0,0,0,.25);}
+        .breadcrumb-item{color:#fff;}
+        @media (max-width:991px){
+            .mainmenu__wrap{height:auto;min-height:72px;}
+            .mainmenu__wrap .container,.mainmenu__wrap .row{height:auto;}
+            .mainmenu__wrap .row{display:block;}
+            .adr-logo,.adr-logo a{height:72px;}
+            .adr-logo img{width:48px;height:48px;max-width:48px;max-height:48px;}
+            .adr-logo-title{font-size:15px;}
+            .adr-logo-subtitle{font-size:8px;}
+        }
+        @media (max-width:767px){
+            .adr-logo-title{font-size:14px;}
+            .adr-logo-subtitle{display:none;}
+            .detail-card{padding:28px;}
+            .detail-card h1{font-size:30px;}
+            .adr-slide img{max-height:none;}
+            .adr-fixed-wa{right:12px;bottom:12px;padding:10px 14px;font-size:13px;}
+        }
+
+    </style>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div id="header" class="htc-header">
+        <div class="htc__header__top bg__cat--1">
+            <div class="container"><div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <ul class="heaher__top__left">
+                        <li><i class="fa fa-clock-o"></i>Pazartesi - Cumartesi: 09.00 - 18.00</li>
+                        <li><a href="tel:+905077921389"><i class="fa fa-phone"></i>0507 792 13 89</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 hidden-xs">
+                    <div class="header__top__right"><div class="heaher__top__btn"><a href="https://wa.me/905077921389" target="_blank">WhatsApp</a></div></div>
+                </div>
+            </div></div>
+        </div>
+        <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
+            <div class="container"><div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-7">
+                    <div class="logo adr-logo">
+                        <a href="index.html">
+                            <img src="images/logo/adr-logo-symbol.png" alt="ADR İnşaat Proje">
+                            <span class="adr-logo-text"><span class="adr-logo-title">ADR İnşaat Proje</span><span class="adr-logo-subtitle">Sanayi ve Ticaret Ltd. Şti.</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-6 col-xs-5">
+                    <nav class="main__menu__nav hidden-xs hidden-sm">
+                        <ul class="main__menu">
+                            <li><a href="index.html">Ana Sayfa</a></li>
+                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li class="active"><a href="service.html">Hizmetlerimiz</a></li>
+                            <li><a href="contact.html">İletişim</a></li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu clearfix visible-xs visible-sm">
+                        <nav id="mobile_dropdown"><ul><li><a href="index.html">Ana Sayfa</a></li><li><a href="about.html">Hakkımızda</a></li><li><a href="service.html">Hizmetlerimiz</a></li><li><a href="contact.html">İletişim</a></li></ul></nav>
+                    </div>
+                </div>
+            </div><div class="mobile-menu-area"></div></div>
+        </div>
+    </div>
+
+    <div class="ht__bradcaump__area" data--black__overlay="6" style="background: rgba(0, 0, 0, 0) url(images/bg/5.jpg) no-repeat scroll center center / cover;">
+        <div class="ht__bradcaump__wrap"><div class="container"><div class="row"><div class="col-xs-12">
+            <div class="bradcaump__inner text-center">
+                <h2 class="bradcaump-title">Enerji Kimlik Belgesi</h2>
+                <nav class="bradcaump-inner"><a class="breadcrumb-item" href="index.html">Ana Sayfa</a><span class="brd-separetor">-</span><a class="breadcrumb-item" href="service.html">Hizmetlerimiz</a><span class="brd-separetor">-</span><span class="breadcrumb-item active">Enerji Kimlik Belgesi</span></nav>
+            </div>
+        </div></div></div></div>
+    </div>
+
+    <section class="detail-hero"><div class="container"><div class="detail-card">
+        <h1>Enerji Kimlik Belgesi</h1>
+        <p class="detail-lead">Enerji Kimlik Belgesi (EKB), binaların enerji performansını gösteren ve mevzuat kapsamında düzenlenen resmi bir belgedir.</p>
+        <p>Enerji Kimlik Belgesi (EKB), 5627 Sayılı Enerji Verimliliği Kanunu ve Binalarda Enerji Performansı Yönetmeliği kapsamında hazırlanan, binaların enerji performansını gösteren resmi bir belgedir. Bu belge; binanın enerji tüketim sınıfı, yıllık enerji ihtiyacı, sera gazı salımı, yalıtım özellikleri ile ısıtma ve soğutma sistemlerinin verimliliğine ilişkin bilgileri içerir.</p>
+<p>Daha basit bir ifadeyle, beyaz eşyalarda ve klimalarda gördüğümüz A ile G arasındaki enerji sınıflandırması, artık binalar için de kullanılmaktadır. Bu sınıflandırmada A sınıfı en yüksek enerji verimliliğini, G sınıfı ise en düşük enerji verimliliğini ifade eder. Bir binanın bu enerji performansını gösteren belgeye Enerji Kimlik Belgesi, kısaca EKB denir.</p>
+<p>Yeni yapılacak veya yapımı devam eden binaların, Enerji Kimlik Belgesi bakımından en az C enerji sınıfında olacak şekilde tasarlanması ve inşa edilmesi zorunludur. C sınıfının altında kalan yeni binalar, yürürlükteki mevzuat gereği yapı kullanma izin belgesi (iskan ruhsatı) alamaz.</p>
+<p>Ayrıca, 01.01.2025 tarihi itibarıyla, yapı ruhsatı alacak ve toplam yapı inşaat alanı 2000 m2 ve üzeri olan binaların Neredeyse Sıfır Enerjili Bina (NSEB) olarak inşa edilmesi zorunlu hale gelmiştir. NSEB; yüksek enerji performansına sahip, aynı zamanda enerji ihtiyacının belirli bir bölümünü yenilenebilir enerji kaynaklarından karşılayan yapıları ifade eder. Bu kapsamda binalarda asgari %10 oranında yenilenebilir enerji kullanımı aranır.</p>
+<p>Mevcut binalarda ise belirli bir asgari enerji sınıfı şartı bulunmamaktadır. Binanın mevcut yalıtım durumu, pencere özellikleri, ısıtma-soğutma sistemlerinin verimi ve aydınlatma altyapısı gibi teknik özelliklere bağlı olarak A sınıfından G sınıfına kadar herhangi bir enerji sınıfında Enerji Kimlik Belgesi düzenlenebilir.</p>
+<h2 class="detail-subtitle">EKB Ne Zamana Kadar Alınmalıdır?</h2>
+<p>Binalarda Enerji Performansı Yönetmeliği&#x27;nin Geçici 4. maddesi uyarınca, 01 Ocak 2011 tarihinden sonra yapı ruhsatı alan binalar yeni bina, bu tarihten önce ruhsat alan binalar ise mevcut bina olarak değerlendirilmektedir.</p>
+<p>Bu doğrultuda, 1 Ocak 2011 tarihinden sonra yapı ruhsatı almış binaların, Yapı Kullanma İzin belgesi alınması aşamasında Enerji Kimlik Belgesini ilgili idareye, yani belediyeye sunması zorunludur. Enerji Kimlik Belgesi bulunmayan yeni binalara iskan ruhsatı verilmez.</p>
+<p>Mevcut binalar ile 1 Ocak 2011 tarihinden önce ruhsat almış ancak henüz yapı kullanım izni almamış binalar için de Enerji Kimlik Belgesi düzenlenmesi yasal zorunluluktur. Bu kapsamda mevcut binaların Enerji Kimlik Belgesi alma yükümlülüğü 2 Mayıs 2017 tarihi itibarıyla yürürlüğe girmiştir.</p>
+<h2 class="detail-subtitle">EKB Nasıl Alınır?</h2>
+<p>Enerji Kimlik Belgesi, yalnızca bu konuda yetkilendirilmiş kişi ve kuruluşlar tarafından düzenlenebilir.</p>
+<p>Yeni binalar için EKB düzenleme yetkisi; yetki belgesi bulunan ve ilgili meslek odalarından alınmış SMM belgesine sahip mühendis veya mimarlara, ya da bünyesinde bu niteliklere sahip uzman personel bulunduran tüzel kişilere aittir.</p>
+<p>Mevcut binalar için ise Enerji Verimliliği ve Çevre Dairesi Başkanlığı tarafından yetkilendirilmiş, bünyesinde EKB Uzmanı mühendis veya mimar bulunduran Enerji Verimliliği Danışmanlık (EVD) şirketleri Enerji Kimlik Belgesi düzenlemeye yetkilidir.</p>
+<p>Alanında uzman kadrosu ve yetkili çözüm ortaklarıyla hizmet veren kuruluşlar aracılığıyla, hem yeni hem de mevcut binalar için Enerji Kimlik Belgesi işlemleri hızlı ve mevzuata uygun şekilde tamamlanabilmektedir.</p>
+<h2 class="detail-subtitle">Enerji Kimlik Belgesi (EKB) İçin Gerekli Evraklar</h2>
+<ul>
+<li>Mimari Proje</li>
+<li>Mekanik Proje</li>
+<li>Isı Yalıtım Raporu (TS-825)</li>
+<li>Elektrik Projesi</li>
+<li>Yapı Ruhsatı</li>
+</ul>
+<p>Türkiye genelinde yeni binalara yönelik Enerji Kimlik Belgesi (EKB) hizmeti vermekteyiz. Detaylı bilgi için bizimle iletişime geçebilirsiniz.</p>
+        <p style="margin-top:28px;"><a class="htc__btn" href="service.html">Hizmetlere Dön</a><a class="adr-whatsapp" href="https://wa.me/905077921389" target="_blank" style="margin-left:10px;">WhatsApp ile Bilgi Alın</a></p>
+    </div></div></section>
+
+    <section class="detail-gallery">
+        <div class="container">
+            <div class="section__title text-center">
+                <h2 class="title__line">PROJE GÖRSELLERİ</h2>
+                <p>Enerji Kimlik Belgesi süreçlerine ilişkin örnek görseller.</p>
+            </div>
+            <div class="adr-slider mt--50">
+                <button class="adr-slider-btn adr-prev" type="button" aria-label="Önceki görsel">&#10094;</button>
+                <div class="adr-slider-track">
+                    <div class="adr-slide"><img src="images/service/ekb/EKB-1.JPG" alt="Enerji Kimlik Belgesi görseli 1"></div>
+                    <div class="adr-slide"><img src="images/service/ekb/EKB-2.JPG" alt="Enerji Kimlik Belgesi görseli 2"></div>
+                    <div class="adr-slide"><img src="images/service/ekb/EKB-3.JPG" alt="Enerji Kimlik Belgesi görseli 3"></div>
+                    <div class="adr-slide"><img src="images/service/ekb/EKB-4.JPG" alt="Enerji Kimlik Belgesi görseli 4"></div>
+                </div>
+                <button class="adr-slider-btn adr-next" type="button" aria-label="Sonraki görsel">&#10095;</button>
+            </div>
+            <div class="adr-slider-thumbs">
+                    <button class="adr-thumb active" type="button" data-slide="0"><img src="images/service/ekb/EKB-1.JPG" alt="Enerji Kimlik Belgesi görseli küçük görsel 1"></button>
+                    <button class="adr-thumb" type="button" data-slide="1"><img src="images/service/ekb/EKB-2.JPG" alt="Enerji Kimlik Belgesi görseli küçük görsel 2"></button>
+                    <button class="adr-thumb" type="button" data-slide="2"><img src="images/service/ekb/EKB-3.JPG" alt="Enerji Kimlik Belgesi görseli küçük görsel 3"></button>
+                    <button class="adr-thumb" type="button" data-slide="3"><img src="images/service/ekb/EKB-4.JPG" alt="Enerji Kimlik Belgesi görseli küçük görsel 4"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="htc__newsletter__area ptb--90 bg__gray"><div class="container"><div class="row"><div class="col-xs-12"><div class="newsletter__wrap text-center">
+        <h2 class="title__line">PROJENİZ İÇİN BİZE ULAŞIN</h2>
+        <h4>Enerji Kimlik Belgesi (EKB) hizmetleri hakkında detaylı bilgi almak için WhatsApp üzerinden hızlıca iletişime geçebilirsiniz.</h4>
+        <p style="margin-top:25px;"><a class="adr-whatsapp" href="https://wa.me/905077921389" target="_blank">WhatsApp ile Bize Ulaşın</a></p>
+    </div></div></div></div></section>
+
+    <footer class="htc__footer__area">
+        <div class="footer__top ptb--80 bg__cat--1"><div class="container"><div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class="footer"><h2 class="ft__title">ADR İnşaat Proje</h2><p>ADR İnşaat Proje Sanayi ve Ticaret Ltd. Şti.; Tunceli Merkez’de proje, mühendislik, teknik raporlama ve konut inşaatı alanlarında profesyonel çözümler sunar.</p></div></div>
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class="footer"><h2 class="ft__title">Sayfalar</h2><ul class="ft__menu"><li><a href="index.html">Ana Sayfa</a></li><li><a href="about.html">Hakkımızda</a></li><li><a href="service.html">Hizmetlerimiz</a></li><li><a href="contact.html">İletişim</a></li></ul></div></div>
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class="footer"><h2 class="ft__title">İletişim</h2><p>Moğultay Mah. Sanat Sok. 62000 Merkez/Tunceli</p><p><a href="tel:+905077921389">0507 792 13 89</a></p><p><a href="mailto:anilutku@msn.com">anilutku@msn.com</a></p></div></div>
+        </div></div></div>
+        <div class="copyright bg__theme"><div class="container"><div class="row"><div class="col-xs-12"><div class="copyright__inner"><p>Copyright © ADR İnşaat Proje Sanayi ve Ticaret Ltd. Şti. Tüm hakları saklıdır.</p></div></div></div></div></div>
+    </footer>
+    <a class="adr-fixed-wa" href="https://wa.me/905077921389" target="_blank">WhatsApp</a>
+</div>
+<script src="js/vendor/jquery-1.12.0.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/plugins.js"></script><script src="js/slick.min.js"></script><script src="js/owl.carousel.min.js"></script><script src="js/waypoints.min.js"></script><script src="js/main.js"></script>
+
+<script>
+(function () {
+    var sliders = document.querySelectorAll('.detail-gallery');
+    sliders.forEach(function(section) {
+        var slides = section.querySelectorAll('.adr-slide');
+        var thumbs = section.querySelectorAll('.adr-thumb');
+        var prev = section.querySelector('.adr-prev');
+        var next = section.querySelector('.adr-next');
+        var index = 0;
+        function showSlide(i) {
+            if (!slides.length) return;
+            index = (i + slides.length) % slides.length;
+            slides.forEach(function(slide, n) { slide.classList.toggle('active', n === index); });
+            thumbs.forEach(function(thumb, n) { thumb.classList.toggle('active', n === index); });
+        }
+        if (prev) prev.addEventListener('click', function() { showSlide(index - 1); });
+        if (next) next.addEventListener('click', function() { showSlide(index + 1); });
+        thumbs.forEach(function(thumb) {
+            thumb.addEventListener('click', function() {
+                showSlide(parseInt(thumb.getAttribute('data-slide'), 10));
+            });
+        });
+        showSlide(0);
+    });
+})();
+</script>
+
+</body>
+</html>

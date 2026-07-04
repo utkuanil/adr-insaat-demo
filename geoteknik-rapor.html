@@ -1,0 +1,229 @@
+<!doctype html>
+<html class="no-js" lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Geoteknik Rapor | ADR İnşaat Proje</title>
+    <meta name="description" content="Zemin etüdü, sondaj, jeofizik ölçümler, laboratuvar deneyleri, arazi deneyleri ve geoteknik raporlama hizmetleri.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <style>
+
+        .mainmenu__wrap {min-height:86px;height:86px;overflow:visible;}
+        .mainmenu__wrap .container,.mainmenu__wrap .row{height:86px;}
+        .mainmenu__wrap .row{display:flex;align-items:center;}
+        .adr-logo{height:86px;display:flex;align-items:center;overflow:visible;padding:0;margin:0;}
+        .adr-logo a{display:flex;align-items:center;gap:12px;height:86px;padding:0;margin:0;text-decoration:none;}
+        .adr-logo img{width:58px;height:58px;max-width:58px;max-height:58px;object-fit:contain;display:block;margin:0;}
+        .adr-logo-text{display:flex;flex-direction:column;line-height:1.1;}
+        .adr-logo-title{font-size:20px;font-weight:800;color:#111;letter-spacing:.2px;white-space:nowrap;}
+        .adr-logo-subtitle{font-size:10px;font-weight:600;color:#333;letter-spacing:.4px;white-space:nowrap;margin-top:4px;}
+        .main__menu__nav{min-height:86px;height:86px;display:flex;align-items:center;}
+        .main__menu > li > a{line-height:86px;}
+        .main__menu li a{font-weight:700;}
+        .sticky__header.scroll-header{min-height:66px;height:66px;}
+        .sticky__header.scroll-header .container,
+        .sticky__header.scroll-header .row,
+        .sticky__header.scroll-header .adr-logo,
+        .sticky__header.scroll-header .adr-logo a,
+        .sticky__header.scroll-header .main__menu__nav{height:66px;min-height:66px;}
+        .sticky__header.scroll-header .main__menu > li > a{line-height:66px;}
+        .sticky__header.scroll-header .adr-logo img{width:46px;height:46px;max-width:46px;max-height:46px;}
+        .sticky__header.scroll-header .adr-logo-title{font-size:17px;}
+        .sticky__header.scroll-header .adr-logo-subtitle{font-size:8px;}
+        .detail-hero{padding:100px 0;background:#f7f7f7;}
+        .detail-card{background:#fff;padding:45px;box-shadow:0 4px 24px rgba(0,0,0,.08);}
+        .detail-card h1{font-size:40px;font-weight:800;margin-bottom:20px;color:#111;}
+        .detail-lead{font-size:18px;line-height:1.8;color:#444;margin-bottom:28px;}
+        .detail-card p{font-size:16px;line-height:1.9;color:#555;}
+        .detail-card ul{padding-left:22px;margin-top:10px;margin-bottom:20px;}
+        .detail-card li{font-size:16px;line-height:1.9;color:#555;}
+        .detail-subtitle{font-size:24px;font-weight:800;color:#111;margin-top:34px;margin-bottom:14px;}
+        .detail-gallery{padding:90px 0;background:#fff;}
+        .adr-slider{position:relative; background:#fff; box-shadow:0 4px 24px rgba(0,0,0,.12); overflow:hidden;}
+        .adr-slider-track{position:relative;}
+        .adr-slide{display:none;}
+        .adr-slide.active{display:block;}
+        .adr-slide img{width:100%; height:auto; max-height:720px; object-fit:contain; display:block; background:#f8f8f8; margin:0 auto;}
+        .adr-slider-btn{position:absolute; top:50%; transform:translateY(-50%); z-index:5; width:46px; height:46px; border:none; border-radius:50%; background:rgba(0,0,0,.55); color:#fff; font-size:24px; line-height:46px; text-align:center;}
+        .adr-slider-btn:hover{background:#ffc226; color:#111;}
+        .adr-prev{left:18px;}
+        .adr-next{right:18px;}
+        .adr-slider-thumbs{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:22px;}
+        .adr-thumb{border:3px solid transparent; padding:0; background:none; width:105px; height:72px; overflow:hidden; cursor:pointer;}
+        .adr-thumb.active{border-color:#ffc226;}
+        .adr-thumb img{width:100%; height:100%; object-fit:cover; display:block;}
+        .adr-whatsapp{display:inline-block;background:#25D366;color:#fff !important;padding:12px 24px;border-radius:3px;font-weight:700;text-transform:none;}
+        .adr-whatsapp:hover{background:#1ebe5d;color:#fff !important;}
+        .adr-fixed-wa{position:fixed;right:18px;bottom:18px;z-index:9999;background:#25D366;color:#fff !important;padding:12px 18px;border-radius:50px;font-weight:700;box-shadow:0 4px 18px rgba(0,0,0,.25);}
+        .breadcrumb-item{color:#fff;}
+        @media (max-width:991px){
+            .mainmenu__wrap{height:auto;min-height:72px;}
+            .mainmenu__wrap .container,.mainmenu__wrap .row{height:auto;}
+            .mainmenu__wrap .row{display:block;}
+            .adr-logo,.adr-logo a{height:72px;}
+            .adr-logo img{width:48px;height:48px;max-width:48px;max-height:48px;}
+            .adr-logo-title{font-size:15px;}
+            .adr-logo-subtitle{font-size:8px;}
+        }
+        @media (max-width:767px){
+            .adr-logo-title{font-size:14px;}
+            .adr-logo-subtitle{display:none;}
+            .detail-card{padding:28px;}
+            .detail-card h1{font-size:30px;}
+            .adr-slide img{max-height:none;}
+            .adr-fixed-wa{right:12px;bottom:12px;padding:10px 14px;font-size:13px;}
+        }
+
+    </style>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div id="header" class="htc-header">
+        <div class="htc__header__top bg__cat--1">
+            <div class="container"><div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <ul class="heaher__top__left">
+                        <li><i class="fa fa-clock-o"></i>Pazartesi - Cumartesi: 09.00 - 18.00</li>
+                        <li><a href="tel:+905077921389"><i class="fa fa-phone"></i>0507 792 13 89</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 hidden-xs">
+                    <div class="header__top__right"><div class="heaher__top__btn"><a href="https://wa.me/905077921389" target="_blank">WhatsApp</a></div></div>
+                </div>
+            </div></div>
+        </div>
+        <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
+            <div class="container"><div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-7">
+                    <div class="logo adr-logo">
+                        <a href="index.html">
+                            <img src="images/logo/adr-logo-symbol.png" alt="ADR İnşaat Proje">
+                            <span class="adr-logo-text"><span class="adr-logo-title">ADR İnşaat Proje</span><span class="adr-logo-subtitle">Sanayi ve Ticaret Ltd. Şti.</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-6 col-xs-5">
+                    <nav class="main__menu__nav hidden-xs hidden-sm">
+                        <ul class="main__menu">
+                            <li><a href="index.html">Ana Sayfa</a></li>
+                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li class="active"><a href="service.html">Hizmetlerimiz</a></li>
+                            <li><a href="contact.html">İletişim</a></li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu clearfix visible-xs visible-sm">
+                        <nav id="mobile_dropdown"><ul><li><a href="index.html">Ana Sayfa</a></li><li><a href="about.html">Hakkımızda</a></li><li><a href="service.html">Hizmetlerimiz</a></li><li><a href="contact.html">İletişim</a></li></ul></nav>
+                    </div>
+                </div>
+            </div><div class="mobile-menu-area"></div></div>
+        </div>
+    </div>
+
+    <div class="ht__bradcaump__area" data--black__overlay="6" style="background: rgba(0, 0, 0, 0) url(images/bg/5.jpg) no-repeat scroll center center / cover;">
+        <div class="ht__bradcaump__wrap"><div class="container"><div class="row"><div class="col-xs-12">
+            <div class="bradcaump__inner text-center">
+                <h2 class="bradcaump-title">Zemin ve Geoteknik Rapor</h2>
+                <nav class="bradcaump-inner"><a class="breadcrumb-item" href="index.html">Ana Sayfa</a><span class="brd-separetor">-</span><a class="breadcrumb-item" href="service.html">Hizmetlerimiz</a><span class="brd-separetor">-</span><span class="breadcrumb-item active">Zemin ve Geoteknik Rapor</span></nav>
+            </div>
+        </div></div></div></div>
+    </div>
+
+    <section class="detail-hero"><div class="container"><div class="detail-card">
+        <h1>Zemin ve Geoteknik Rapor</h1>
+        <p class="detail-lead">Yapıların güvenli, ekonomik ve uzun ömürlü olarak projelendirilmesinin ilk ve en kritik adımı, zeminin doğru tanınmasıdır.</p>
+        <p>Yapıların güvenli, ekonomik ve uzun ömürlü olarak projelendirilmesinin ilk ve en kritik adımı, zeminin doğru tanınmasıdır. Bu doğrultuda sunduğumuz zemin etüdü, sondaj, jeofizik ölçümler, laboratuvar deneyleri, arazi deneyleri ve geoteknik raporlama hizmetleri; mühendislik projelerinin sağlam verilere dayalı olarak ilerlemesini sağlar.</p>
+<p>Firmamız, her proje için sahanın özelliklerini ayrıntılı biçimde değerlendirerek, zeminin taşıma gücü, oturma karakteri, tabaka yapısı, yeraltı suyu durumu ve mühendislik davranışını ortaya koymaktadır. Bu kapsamda gerçekleştirilen zemin etüt çalışmaları, yapılaşmaya esas güvenilir verilerin elde edilmesini ve uygun temel sisteminin belirlenmesini amaçlamaktadır.</p>
+<p>Saha çalışmalarımızın temelini oluşturan sondaj hizmetleri, zeminin tabakalanmasını yerinde gözlemleme ve numune alma imkanı sunar. Proje ihtiyacına uygun derinlik ve sayıda yapılan sondajlar sayesinde zemin profili detaylı olarak belirlenir, gerekli yerlerden örselenmiş ve örselenmemiş numuneler alınarak ileri incelemelere hazır hale getirilir. Sondaj esnasında yapılan ölçüm ve gözlemler, geoteknik değerlendirmelerin en önemli girdilerini oluşturur.</p>
+<p>Zemin davranışının daha geniş ölçekte ve hızlı şekilde belirlenebilmesi amacıyla jeofizik çalışmalar da hizmetlerimiz arasında yer almaktadır. Sismik, rezistivite ve benzeri jeofizik yöntemlerle yeraltı yapısı, tabaka sınırları, zemin sınıfları ve mühendislik açısından önem taşıyan parametreler belirlenebilmektedir. Jeofizik veriler, sondaj bulguları ile birlikte değerlendirilerek daha güvenilir ve bütüncül sonuçlara ulaşılmasını sağlar.</p>
+<p>Sahadan alınan numuneler üzerinde gerçekleştirilen laboratuvar deneyleri, zeminin fiziksel ve mekanik özelliklerinin belirlenmesinde kritik rol oynar. Tane dağılımı, Atterberg limitleri, doğal su muhtevası, birim hacim ağırlık, kesme dayanımı, konsolidasyon ve benzeri deneyler ile zeminin mühendislik parametreleri detaylı olarak ortaya konur. Bu veriler, yapı-zemin etkileşiminin doğru değerlendirilmesi açısından büyük önem taşır.</p>
+<p>Bunun yanında sahada uygulanan arazi deneyleri ile zeminin yerindeki davranışı doğrudan gözlemlenmektedir. SPT başta olmak üzere proje gereksinimine göre gerçekleştirilen diğer arazi testleri sayesinde zemin dayanımı, sıkılığı, deformasyon özellikleri ve taşıma kapasitesine ilişkin önemli veriler elde edilmektedir. Arazi deneylerinden alınan sonuçlar, laboratuvar ve jeofizik verilerle desteklenerek mühendislik yorumlarının doğruluğu artırılmaktadır.</p>
+<p>Tüm bu çalışmaların sonunda hazırlanan geoteknik rapor, proje sahasına ait verilerin teknik analizini içeren kapsamlı bir mühendislik dokümanıdır. Raporda saha ve laboratuvar sonuçları değerlendirilmekte; zemin sınıflaması, taşıma gücü, oturma analizleri, temel tipi önerileri, kazı ve şev güvenliği değerlendirmeleri, yeraltı suyu etkileri ve gerekli iyileştirme önerileri ayrıntılı biçimde sunulmaktadır. Böylece yatırımcı, proje müellifi ve uygulayıcı firmalar için karar alma sürecini kolaylaştıran güvenilir bir teknik altyapı oluşturulmaktadır.</p>
+<p>Amacımız; her projeye, mevzuata uygun, teknik açıdan güvenilir, ekonomik ve uygulanabilir çözümler sunmaktır. Deneyimli ekibimiz ve disiplinler arası yaklaşımımızla, araziden rapora kadar tüm süreci tek elden yöneterek müşterilerimize hızlı, doğru ve kaliteli hizmet sağlamaktayız.</p>
+        <p style="margin-top:28px;"><a class="htc__btn" href="service.html">Hizmetlere Dön</a><a class="adr-whatsapp" href="https://wa.me/905077921389" target="_blank" style="margin-left:10px;">WhatsApp ile Bilgi Alın</a></p>
+    </div></div></section>
+
+    <section class="detail-gallery">
+        <div class="container">
+            <div class="section__title text-center">
+                <h2 class="title__line">PROJE GÖRSELLERİ</h2>
+                <p>Geoteknik raporlama, zemin etüdü ve saha çalışmalarına ilişkin örnek görseller.</p>
+            </div>
+            <div class="adr-slider mt--50">
+                <button class="adr-slider-btn adr-prev" type="button" aria-label="Önceki görsel">&#10094;</button>
+                <div class="adr-slider-track">
+                    <div class="adr-slide"><img src="images/service/geoteknik/ZGR-1.jpg" alt="Geoteknik Rapor görseli 1"></div>
+                    <div class="adr-slide"><img src="images/service/geoteknik/ZGR-2.jpg" alt="Geoteknik Rapor görseli 2"></div>
+                    <div class="adr-slide"><img src="images/service/geoteknik/ZGR-3.jpg" alt="Geoteknik Rapor görseli 3"></div>
+                    <div class="adr-slide"><img src="images/service/geoteknik/ZGR-4.jpg" alt="Geoteknik Rapor görseli 4"></div>
+                    <div class="adr-slide"><img src="images/service/geoteknik/ZGR-5.JPG" alt="Geoteknik Rapor görseli 5"></div>
+                </div>
+                <button class="adr-slider-btn adr-next" type="button" aria-label="Sonraki görsel">&#10095;</button>
+            </div>
+            <div class="adr-slider-thumbs">
+                    <button class="adr-thumb active" type="button" data-slide="0"><img src="images/service/geoteknik/ZGR-1.jpg" alt="Geoteknik Rapor görseli küçük görsel 1"></button>
+                    <button class="adr-thumb" type="button" data-slide="1"><img src="images/service/geoteknik/ZGR-2.jpg" alt="Geoteknik Rapor görseli küçük görsel 2"></button>
+                    <button class="adr-thumb" type="button" data-slide="2"><img src="images/service/geoteknik/ZGR-3.jpg" alt="Geoteknik Rapor görseli küçük görsel 3"></button>
+                    <button class="adr-thumb" type="button" data-slide="3"><img src="images/service/geoteknik/ZGR-4.jpg" alt="Geoteknik Rapor görseli küçük görsel 4"></button>
+                    <button class="adr-thumb" type="button" data-slide="4"><img src="images/service/geoteknik/ZGR-5.JPG" alt="Geoteknik Rapor görseli küçük görsel 5"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="htc__newsletter__area ptb--90 bg__gray"><div class="container"><div class="row"><div class="col-xs-12"><div class="newsletter__wrap text-center">
+        <h2 class="title__line">PROJENİZ İÇİN BİZE ULAŞIN</h2>
+        <h4>Geoteknik Rapor hizmetleri hakkında detaylı bilgi almak için WhatsApp üzerinden hızlıca iletişime geçebilirsiniz.</h4>
+        <p style="margin-top:25px;"><a class="adr-whatsapp" href="https://wa.me/905077921389" target="_blank">WhatsApp ile Bize Ulaşın</a></p>
+    </div></div></div></div></section>
+
+    <footer class="htc__footer__area">
+        <div class="footer__top ptb--80 bg__cat--1"><div class="container"><div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class="footer"><h2 class="ft__title">ADR İnşaat Proje</h2><p>ADR İnşaat Proje Sanayi ve Ticaret Ltd. Şti.; Tunceli Merkez’de proje, mühendislik, teknik raporlama ve konut inşaatı alanlarında profesyonel çözümler sunar.</p></div></div>
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class="footer"><h2 class="ft__title">Sayfalar</h2><ul class="ft__menu"><li><a href="index.html">Ana Sayfa</a></li><li><a href="about.html">Hakkımızda</a></li><li><a href="service.html">Hizmetlerimiz</a></li><li><a href="contact.html">İletişim</a></li></ul></div></div>
+            <div class="col-md-4 col-sm-6 col-xs-12"><div class="footer"><h2 class="ft__title">İletişim</h2><p>Moğultay Mah. Sanat Sok. 62000 Merkez/Tunceli</p><p><a href="tel:+905077921389">0507 792 13 89</a></p><p><a href="mailto:anilutku@msn.com">anilutku@msn.com</a></p></div></div>
+        </div></div></div>
+        <div class="copyright bg__theme"><div class="container"><div class="row"><div class="col-xs-12"><div class="copyright__inner"><p>Copyright © ADR İnşaat Proje Sanayi ve Ticaret Ltd. Şti. Tüm hakları saklıdır.</p></div></div></div></div></div>
+    </footer>
+    <a class="adr-fixed-wa" href="https://wa.me/905077921389" target="_blank">WhatsApp</a>
+</div>
+<script src="js/vendor/jquery-1.12.0.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/plugins.js"></script><script src="js/slick.min.js"></script><script src="js/owl.carousel.min.js"></script><script src="js/waypoints.min.js"></script><script src="js/main.js"></script>
+
+<script>
+(function () {
+    var sliders = document.querySelectorAll('.detail-gallery');
+    sliders.forEach(function(section) {
+        var slides = section.querySelectorAll('.adr-slide');
+        var thumbs = section.querySelectorAll('.adr-thumb');
+        var prev = section.querySelector('.adr-prev');
+        var next = section.querySelector('.adr-next');
+        var index = 0;
+        function showSlide(i) {
+            if (!slides.length) return;
+            index = (i + slides.length) % slides.length;
+            slides.forEach(function(slide, n) { slide.classList.toggle('active', n === index); });
+            thumbs.forEach(function(thumb, n) { thumb.classList.toggle('active', n === index); });
+        }
+        if (prev) prev.addEventListener('click', function() { showSlide(index - 1); });
+        if (next) next.addEventListener('click', function() { showSlide(index + 1); });
+        thumbs.forEach(function(thumb) {
+            thumb.addEventListener('click', function() {
+                showSlide(parseInt(thumb.getAttribute('data-slide'), 10));
+            });
+        });
+        showSlide(0);
+    });
+})();
+</script>
+
+</body>
+</html>
